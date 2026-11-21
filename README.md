@@ -1,135 +1,208 @@
-================================================================================
-                          [*] JALEES-E-HIKMAT [*]
-              Rohani, Falkiyati aur Adadi Uloom ki Jame Website
-================================================================================
+🌙 JALEES-E-HIKMAT
+✨ Rohani, Falkiyati aur Adadi Uloom ka Jame Platform
 
-[=] Musannif aur Muhaqqiq : Sheikh Feelsoof Ansari
-[>] Live Site URL         : https://feelsoof123.github.io/jalees-e-hikmat/
-[<] GitHub Repository     : https://github.com/feelsoof123/jalees-e-hikmat
+<p align="center">
+<img src="images/logo.png" alt="Jalees-e-Hikmat Logo" width="160">
+</p>
 
---------------------------------------------------------------------------------
-[i] 1. TAARUF (INTRODUCTION)
---------------------------------------------------------------------------------
-Jalees-e-Hikmat ilm-e-jafar, ilm-e-nujoom, ilm-e-ramal, ilm-e-takseerat, 
-ilm-e-taskheerat, ilm-e-abjad, ilm-e-mustahsaliya aur rohani ilaj o rehnumai ka 
-aik mustanad platform hai. Is website ka maqsad qadeem uloom ko jadeed 
-technology ke zariye aam aur qabil-e-feham banana hai.
+<p align="center">
+<strong>Ilm-e-Jafar • Ilm-e-Nujoom • Ilm-e-Ramal • Ilm-e-Abjad • Rohani Rehnumai</strong>
+</p>
 
---------------------------------------------------------------------------------
-[+] 2. KHASOOSIYAT (KEY FEATURES)
---------------------------------------------------------------------------------
-[+] Abjadi Calculator (abjad.html)
-    - Abjad-e-Qamri, Abjad-e-Shamsi aur Abjad-e-Malfoozi ka khudkar hisabi nizam.
-    - Airab aur takrari haroof ki auto filtering.
+<p align="center">
+<a href="https://feelsoof123.github.io/jalees-e-hikmat/">
+🌐 Live Website
+</a>
+|
+<a href="https://github.com/feelsoof123/jalees-e-hikmat">
+💻 GitHub Repository
+</a>
+</p>
 
-[+] Takseeri Calculator (takseer.html)
-    - Takseer-e-huroof aur basat ke marahil ka khudkar istikhraj.
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-GitHub%20Pages-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Design-Responsive-gold?style=for-the-badge">
+</p>
 
-[+] Vedic Zaicha aur Falkiyat (vedic.html)
-    - Vedic astrology aur burooj ka tehqeeqi jaiza.
+📖 1. Taaruf (Introduction)
 
-[+] Tarbiyati Asbaaq aur Mazameen (asbaaq.html, articles.html)
-    - Sheikh Feelsoof Ansari ki mustanad kutub aur rohani mazameen.
+Jalees-e-Hikmat ilm-e-jafar, ilm-e-nujoom, ilm-e-ramal, ilm-e-takseerat, ilm-e-taskheerat, ilm-e-abjad, ilm-e-mustahsaliya aur rohani ilaj o rehnumai ka aik jame platform hai.
 
-[+] Design aur UI
-    - Asmani sitaron ka animation (#star-field) aur ghoomta hua logo (zodiac-img).
-    - Golden aur dark navy blue premium theme.
-    - Offline Urdu/Arabic fonts ki khudkar loading.
+Is website ka bunyadi maqsad qadeem uloom ko jadeed technology ke zariye aam aur qabil-e-feham banana hai.
 
-[+] Mobile Responsive
-    - Mobile, tablet aur desktop sab par behtareen display.
+Musannif aur Muhaqqiq: Sheikh Feelsoof Ansari
 
---------------------------------------------------------------------------------
-[#] 3. PROJECT STRUCTURE
---------------------------------------------------------------------------------
+⭐ 2. Khasoosiyat (Key Features)
+🔢 Abjadi Calculator
+
+File: abjad.html
+
+Abjad-e-Qamri ka khudkar hisab.
+Abjad-e-Shamsi ka hisab.
+Abjad-e-Malfoozi ka hisab.
+Airab aur takrari huroof ki automatic filtering.
+🔠 Takseeri Calculator
+
+File: takseer.html
+
+Takseer-e-Huroof ka khudkar istikhraj.
+Basat ke marahil ki tafseel.
+Adadi hisabat ka munazzam nizam.
+♈ Vedic Zaicha aur Falkiyat
+
+File: vedic.html
+
+Vedic Astrology ka tehqeeqi jaiza.
+Burooj aur sayyargan ki maloomat.
+Falkiyati uloom ka mutala.
+📚 Tarbiyati Asbaaq
+
+File: asbaaq.html
+
+Ilmi aur tarbiyati asbaaq.
+Qadeem uloom ki taleem.
+Rohani aur adadi rehnumai.
+📝 Ilmi Mazameen
+
+File: articles.html
+
+Qeemti pathron ka intekhab.
+Ibtal-e-sahar o nazar-e-bad.
+Burooj o sayyargan ke asrat.
+Istikhara aur is ki aqsam.
+Ilm-ul-adad aur namon ki hum-ahangi.
+🎨 3. Design aur User Interface
+🌌 Asmani sitaron ka animated background.
+🪐 Ghoomta hua zodiac logo.
+✨ Premium Golden aur Dark Navy Blue Theme.
+🖋️ Urdu aur Arabic fonts ki offline loading.
+📱 Mobile, Tablet aur Desktop Responsive Design.
+⚡ Behtar user experience aur simple navigation.
+📂 4. Project Structure
+text
 jalees-e-hikmat/
-|-- index.html                      --> Markazi safha (Home Page)
-|-- abjad.html                      --> Abjadi calculator
-|-- takseer.html                    --> Takseeri calculator
-|-- vedic.html                      --> Vedic zaicha aur maloomat
-|-- asbaaq.html                     --> Tarbiyati asbaaq
-|-- articles.html                   --> Ilmi mazameen ki fehrist
-|-- article1.html                   --> Mazmoon 1: Qeemti pathron ka intekhab
-|-- article2.html                   --> Mazmoon 2: Ibtal-e-sahar o nazar-e-bad
-|-- article3.html                   --> Mazmoon 3: Burooj o sayyargan ke asrat
-|-- article4.html                   --> Mazmoon 4: Istikhara aur is ki aqsam
-|-- article5.html                   --> Mazmoon 5: Ilm-ul-adad aur namon ki hum-ahangi
-|-- 404.html                        --> Custom 404 error page
-|-- style.css                       --> Mukammal markazi style sheet
-|-- script.js                       --> JavaScript libraries aur animations
-|-- favicon.ico                     --> Fav icon
-|-- robots.txt                      --> Search engines ke liye hidayat
-|-- sitemap.xml                     --> SEO site map
-|-- manifest.json                   --> PWA manifest
-|-- README.md                       --> Project documentation
-|-- .gitignore                      --> Git ignore file
-|
-|-- [DIR] fonts/                    --> Offline fonts directory
-|   |-- NotoNastaliqUrdu-400.woff2
-|   |-- NotoNastaliqUrdu-700.woff2
-|   |-- NotoSansArabic-400.woff2
-|   +-- NotoSansArabic-700.woff2
-|
-+-- [DIR] images/                   --> Tamam tasaveer aur icons
-    |-- logo.png
-    |-- pg1.jpg
-    |-- pg2.jpg
-    |-- pg3.jpg
-    |-- pg4.jpg
-    |-- pg5.jpg
-    |-- favicon.ico
-    |-- favicon-16x16.png
-    |-- favicon-32x32.png
-    |-- apple-touch-icon.png
-    |-- android-chrome-192x192.png
-    +-- android-chrome-512x512.png
+│
+├── index.html
+├── abjad.html
+├── takseer.html
+├── vedic.html
+├── asbaaq.html
+├── articles.html
+│
+├── article1.html
+├── article2.html
+├── article3.html
+├── article4.html
+├── article5.html
+│
+├── 404.html
+├── style.css
+├── script.js
+│
+├── favicon.ico
+├── robots.txt
+├── sitemap.xml
+├── manifest.json
+├── README.md
+├── .gitignore
+│
+├── fonts/
+│   ├── NotoNastaliqUrdu-400.woff2
+│   ├── NotoNastaliqUrdu-700.woff2
+│   ├── NotoSansArabic-400.woff2
+│   └── NotoSansArabic-700.woff2
+│
+└── images/
+    ├── logo.png
+    ├── pg1.jpg
+    ├── pg2.jpg
+    ├── pg3.jpg
+    ├── pg4.jpg
+    ├── pg5.jpg
+    ├── favicon.ico
+    ├── favicon-16x16.png
+    ├── favicon-32x32.png
+    ├── apple-touch-icon.png
+    ├── android-chrome-192x192.png
+    └── android-chrome-512x512.png
 
---------------------------------------------------------------------------------
-[$] 4. LOCAL CHALANE KA TAREEQA (HOW TO RUN LOCALLY)
---------------------------------------------------------------------------------
-[1] Direct Browser:
-    - Folder mein ja kar index.html par double click karein.
+💻 5. Local Installation
 
-[2] Local Server:
-    - Project folder mein terminal ya CMD khol kar ye command chalayein:
-      python -m http.server 8000
-    - Phir apne browser mein http://localhost:8000 kholein.
+Project ko apne computer par chalane ke do asaan tareeqe hain.
 
---------------------------------------------------------------------------------
-[^] 5. GITHUB PAGES PAR HOST KARNE KA TAREEQA
---------------------------------------------------------------------------------
-[Step 1] Git Initialize & Commit
-    git init
-    git add .
-    git commit -m "Initial commit - Jalees e Hikmat Complete Project"
-    git branch -M main
+Method 1: Direct Browser
+Project folder open karein.
+index.html par double click karein.
+Website browser mein open ho jayegi.
+Method 2: Python Local Server
 
-[Step 2] GitHub Repository Banayein
-    - GitHub par 'jalees-e-hikmat' naam se Public repository banayein (bina README ke).
+Terminal ya CMD mein project folder open karke ye command chalayein:
 
-[Step 3] Code Push Karein
-    git remote add origin https://github.com/feelsoof123/jalees-e-hikmat.git
-    git push -u origin main
+bash
+python -m http.server 8000
 
-[Step 4] GitHub Pages On Karein
-    - Repository ke Settings > Pages mein jayein.
-    - Branch mein 'main' aur folder mein '/ (root)' select kar ke Save karein.
-    - 1 se 2 minute mein site live ho jayegi.
 
---------------------------------------------------------------------------------
-[@] 6. RABITA BRAE MULAQAT AUR ISTIKHARA
---------------------------------------------------------------------------------
-Call            : 0311-1855512
-WhatsApp        : 0300-0210419
-Email           : feelsoof123@gmail.com
-Facebook        : Sheikh Ansari
-Pata            : 100 Quarters, Usman Town, Nazd Masjid-e-Ilahiya, 
-                  Korangi No. 5, Karachi, Pakistan.
-Auqat-e-Mulaqat : Subah 10 baje ta shaam 4 baje (Itwar aur Jumma ta'teel)
+Phir browser mein ye address open karein:
 
-[!] Zaroori Hidayat : Khawateen apne mehram ke saath tashreef layein, akele aane 
-                       par mulaqat nahi ki jayegi.
+text
+http://localhost:8000
 
-================================================================================
-(c) Jumla huqooq mehfooz hain. Jalees-e-Hikmat - Sheikh Feelsoof Ansari.
-================================================================================
+🚀 6. GitHub Pages Hosting
+Step 1: Git Initialize Karein
+bash
+git init
+git add .
+git commit -m "Initial commit - Jalees-e-Hikmat"
+git branch -M main
+
+Step 2: GitHub Repository Banayein
+
+GitHub par jalees-e-hikmat naam se repository banayein.
+
+Step 3: Project Upload Karein
+bash
+git remote add origin https://github.com/feelsoof123/jalees-e-hikmat.git
+git push -u origin main
+
+Step 4: GitHub Pages Enable Karein
+GitHub repository open karein.
+Settings mein jayein.
+Pages option select karein.
+Build and Deployment mein Deploy from a branch select karein.
+Branch mein main aur folder mein /(root) select karein.
+Save par click karein.
+
+🎉 Aapki website GitHub Pages par publish ho jayegi.
+
+🌐 Live Website
+
+https://feelsoof123.github.io/jalees-e-hikmat/
+
+📞 7. Rabita Baraye Mulaqat aur Istikhara
+Tafseel	Maloomat
+👤 Musannif	Sheikh Feelsoof Ansari
+📞 Call	0311-1855512
+💬 WhatsApp	0300-0210419
+📧 Email	feelsoof123@gmail.com
+📘 Facebook	Sheikh Ansari
+📍 Pata	100 Quarters, Usman Town, Nazd Masjid-e-Ilahiya, Korangi No. 5, Karachi, Pakistan
+🕙 Auqat-e-Mulaqat	Subah 10 baje se shaam 4 baje tak
+🚫 Chhutti	Itwar aur Jumma
+⚠️ Zaroori Hidayat
+
+Khawateen apne mehram ke saath tashreef layein. Akele aane par mulaqat nahi ki jayegi.
+
+❤️ 8. Shukriya
+
+Jalees-e-Hikmat ka maqsad qadeem ilm aur jadeed technology ke darmiyan aik behtareen rabta qaim karna hai.
+
+Musannif aur Muhaqqiq: Sheikh Feelsoof Ansari
+
+© Tamam Huqooq Mehfooz Hain.
+
+<p align="center">
+🌙 <strong>JALEES-E-HIKMAT</strong> ✨
+<br>
+<em>Ilm, Hikmat aur Rehnumai ka Safar</em>
+</p>
