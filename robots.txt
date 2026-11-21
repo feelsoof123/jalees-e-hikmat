@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap URL for Search Engines
+Sitemap: https://feelsoof123.github.io/jalees-e-hikmat/sitemap.xml

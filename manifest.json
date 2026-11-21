@@ -1,0 +1,43 @@
+{
+  "name": "جلیسِ حِکمت - شیخ فیلسوف انصاری",
+  "short_name": "جلیسِ حکمت",
+  "description": "روحانی علوم، جفر، نجوم، رمل، تکسیر اور ابجد کے مستند اصول و قواعد",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1b3e",
+  "theme_color": "#ffd700",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ur",
+  "icons": [
+    {
+      "src": "images/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books", "utilities"]
+}
