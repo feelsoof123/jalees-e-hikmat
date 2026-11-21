@@ -1,159 +1,124 @@
-جلیسِ حکمت (Jalees-e-Hikmat)
-روحانی، فلکیاتی و عددی علوم کی جامع ویب سائٹ
+================================================================================
+                                JALEES-E-HIKMAT
+                  Rohani, Falkiyati aur Adadi Uloom ki Jame Website
+================================================================================
 
-مصنف و محقق: شیخ فیلسوف انصاری (Sheikh Feelsoof Ansari)
+Musannif aur Muhaqqiq : Sheikh Feelsoof Ansari
+Live Site URL         : https://feelsoof123.github.io/jalees-e-hikmat/
+GitHub Repository     : https://github.com/feelsoof123/jalees-e-hikmat
 
-Live Site URL: https://feelsoof123.github.io/jalees-e-hikmat/
+--------------------------------------------------------------------------------
+1. TAARUF (INTRODUCTION)
+--------------------------------------------------------------------------------
+Jalees-e-Hikmat ilm-e-jafar, ilm-e-nujoom, ilm-e-ramal, ilm-e-takseerat, 
+ilm-e-taskheerat, ilm-e-abjad, ilm-e-mustahsaliya aur rohani ilaj o rehnumai ka 
+aik mustanad platform hai. Is website ka maqsad qadeem uloom ko jadeed 
+technology ke zariye aam aur qabil-e-feham banana hai.
 
-GitHub Repository: https://github.com/feelsoof123/jalees-e-hikmat
+--------------------------------------------------------------------------------
+2. KHASOOSIYAT (KEY FEATURES)
+--------------------------------------------------------------------------------
+* Abjadi Calculator (abjad.html):
+  - Abjad-e-Qamri, Abjad-e-Shamsi aur Abjad-e-Malfoozi ka khudkar hisabi nizam.
+  - Airab aur takrari haroof ki auto filtering.
 
-📌 تعارف (Introduction)
-جلیسِ حکمت علمِ جفر، علمِ نجوم، علمِ رمل، علمِ تکسیرات، علمِ تسخیرات، علمِ ابجد، علمِ مستحصلیہ اور روحانی علاج و رہنمائی کا ایک مستند پلیٹ فارم ہے۔ اس ویب سائٹ کا مقصد قدیم علوم کو جدید ٹیکنالوجی کے ذریعے عام اور قابلِ فہم بنانا ہے۔
+* Takseeri Calculator (takseer.html):
+  - Takseer-e-huroof aur basat ke marahil ka khudkar istikhraj.
 
-🗂️ پراجیکٹ کا ڈھانچہ (Project Structure)
-Plaintext
+* Vedic Zaicha aur Falkiyat (vedic.html):
+  - Vedic astrology aur burooj ka tehqeeqi jaiza.
+
+* Tarbiyati Asbaaq aur Mazameen (asbaaq.html, articles.html):
+  - Sheikh Feelsoof Ansari ki mustanad kutub aur rohani mazameen.
+
+* Design aur UI:
+  - Asmani sitaron ka animation (#star-field) aur ghoomta hua logo (zodiac-img).
+  - Golden aur dark navy blue premium theme.
+  - Offline Urdu/Arabic fonts ki khudkar loading.
+
+* Mobile Responsive:
+  - Mobile, tablet aur desktop sab par behtareen display.
+
+--------------------------------------------------------------------------------
+3. PROJECT STRUCTURE
+--------------------------------------------------------------------------------
 jalees-e-hikmat/
-├── index.html                   # مرکزی صفحہ (صفحہ اول)
-├── abjad.html                   # ابجدی کیلکولیٹر (قمری، شمسی، ملفوظی)
-├── takseer.html                 # تکسیری کیلکولیٹر
-├── vedic.html                   # ویدک زائچہ و معلومات
-├── asbaaq.html                  # تربیتی اسباق
-├── articles.html                # علمی مضامین کی فہرست
-├── article1.html                # مضمون ۱: قیمتی پتھروں کا انتخاب
-├── article2.html                # مضمون ۲: ابطالِ سحر و نظرِ بد
-├── article3.html                # مضمون ۳: بروج و سیارگان کے اثرات
-├── article4.html                # مضمون ۴: استخارہ اور اس کی اقسام
-├── article5.html                # مضمون ۵: علمِ الاعداد اور ناموں کی ہم آہنگی
-├── 404.html                     # خوبصورت کسٹم 404 غلطی کا صفحہ
-├── style.css                    # مکمل مرکزی اسٹائل شیٹ (تھیم، ریسپانسیو، فونٹس)
-├── script.js                    # جاوا اسکرپٹ لائبریریز و اینیمیشنز
-├── favicon.ico                  # ملٹی ریزولیوشن فیو آئیکن
-├── robots.txt                   # سرچ انجنز (Google وغیرہ) کے لیے ہدایات
-├── sitemap.xml                  # ایس ای او سائٹ میپ برائے گوگل سرچ
-├── manifest.json                # پروگریسو ویب ایپ (PWA) مینیفیسٹ
-├── README.md                    # پراجیکٹ کی جامع دستاویزات
-├── .gitignore                   # گٹ سے غیر ضروری فائلیں نظر انداز کرنے کی فائل
-├── fonts/                       # آف لائن فونٹس ڈائریکٹری
+├── index.html          # Markazi safha (Home Page)
+├── abjad.html          # Abjadi calculator
+├── takseer.html        # Takseeri calculator
+├── vedic.html          # Vedic zaicha aur maloomat
+├── asbaaq.html         # Tarbiyati asbaaq
+├── articles.html       # Ilmi mazameen ki fehrist
+├── article1.html       # Mazmoon 1: Qeemti pathron ka intekhab
+├── article2.html       # Mazmoon 2: Ibtal-e-sahar o nazar-e-bad
+├── article3.html       # Mazmoon 3: Burooj o sayyargan ke asrat
+├── article4.html       # Mazmoon 4: Istikhara aur is ki aqsam
+├── article5.html       # Mazmoon 5: Ilm-ul-adad aur namon ki hum-ahangi
+├── 404.html            # Custom 404 error page
+├── style.css           # Mukammal markazi style sheet
+├── script.js           # JavaScript libraries aur animations
+├── favicon.ico         # Fav icon
+├── robots.txt          # Search engines ke liye hidayat
+├── sitemap.xml         # SEO site map
+├── manifest.json       # PWA manifest
+├── README.md           # Project documentation
+├── .gitignore          # Git ignore file
+├── fonts/              # Offline fonts directory
 │   ├── NotoNastaliqUrdu-400.woff2
 │   ├── NotoNastaliqUrdu-700.woff2
 │   ├── NotoSansArabic-400.woff2
 │   └── NotoSansArabic-700.woff2
-└── images/                      # تمام تصویری اثاثہ جات اور آئیکونز
+└── images/             # Tamam tasaveer aur icons
     ├── logo.png
-    ├── pg1.jpg
-    ├── pg2.jpg
-    ├── pg3.jpg
-    ├── pg4.jpg
-    ├── pg5.jpg
-    ├── favicon.ico
-    ├── favicon-16x16.png
-    ├── favicon-32x32.png
-    ├── apple-touch-icon.png
-    ├── android-chrome-192x192.png
-    └── android-chrome-512x512.png
-✨ خصوصیات (Key Features)
-ابجدی کیلکولیٹر (abjad.html):
+    ├── pg1.jpg - pg5.jpg
+    └── favicons & app icons
 
-ابجدِ قمری، ابجدِ شمسی اور ابجدِ ملفوظی کا خودکار حسابی نظام۔
+--------------------------------------------------------------------------------
+4. LOCAL CHALANE KA TAREEQA (HOW TO RUN LOCALLY)
+--------------------------------------------------------------------------------
+Tareeqa 1 (Direct Browser):
+- Folder mein ja kar index.html par double click karein.
 
-اعراب (تسکین و زبر وغیرہ) اور تکراری حروف کی آٹو فلٹرنگ۔
+Tareeqa 2 (Local Server):
+- Project folder mein terminal ya CMD khol kar ye command chalayein:
+  python -m http.server 8000
+- Phir apne browser mein http://localhost:8000 kholein.
 
-تکسیری کیلکولیٹر (takseer.html):
+--------------------------------------------------------------------------------
+5. GITHUB PAGES PAR HOST KARNE KA TAREEQA
+--------------------------------------------------------------------------------
+Step 1: Git Initialize & Commit
+  git init
+  git add .
+  git commit -m "Initial commit - Jalees e Hikmat Complete Project"
+  git branch -M main
 
-تکسیرِ حروف اور بسط کے مراحل کا خودکار استخراج۔
+Step 2: GitHub Repository Banayein
+  - GitHub par 'jalees-e-hikmat' naam se Public repository banayein (bina README ke).
 
-ویدک زائچہ و فلکیات (vedic.html):
+Step 3: Code Push Karein
+  git remote add origin https://github.com/feelsoof123/jalees-e-hikmat.git
+  git push -u origin main
 
-ویدک اسٹرولوجی اور بروج کا تحقیقی جائزہ۔
+Step 4: GitHub Pages On Karein
+  - Repository ke Settings > Pages mein jayein.
+  - Branch mein 'main' aur folder mein '/ (root)' select kar ke Save karein.
+  - 1 se 2 minute mein site live ho jayegi.
 
-تربیتی اسباق و مضامین (asbaaq.html, articles.html):
+--------------------------------------------------------------------------------
+6. RABITA BRAE MULAQAT AUR ISTIKHARA
+--------------------------------------------------------------------------------
+Call            : 0311-1855512
+WhatsApp        : 0300-0210419
+Email           : feelsoof123@gmail.com
+Facebook        : Sheikh Ansari
+Pata            : 100 Quarters, Usman Town, Nazd Masjid-e-Ilahiya, 
+                  Korangi No. 5, Karachi, Pakistan.
+Auqat-e-Mulaqat : Subah 10 baje ta shaam 4 baje (Itwar aur Jumma ta'teel)
 
-شیخ فیلسوف انصاری کے قلم سے نکلے مستند کتب اور روحانی مضامین۔
+Zaroori Hidayat : Khawateen apne mehram ke saath tashreef layein, akele aane 
+                  par mulaqat nahi ki jayegi.
 
-دید زیب جدید ڈیزائن:
-
-آسمانی ستاروں کا اینیمیشن (#star-field)۔
-
-گھومتا ہوا طلسماتی لوگو (zodiac-img)۔
-
-گولڈن اور ڈارک نیوی بلیو پریمیم تھیم۔
-
-مکمل اردو نستعلیق اور نسخ فونٹس کی خودکار لوڈنگ۔
-
-موبائل دوستانہ (Mobile Responsive):
-
-ہر قسم کے موبائل، ٹیبلیٹ اور کمپیوٹر پر بہترین ڈسپلے۔
-
-💻 مقامی طور پر چلانے کا طریقہ (How to Run Locally)
-براہِ راست براؤزر میں کھولیں:
-
-فولڈر میں جا کر index.html پر ڈبل کلک کریں، ویب سائٹ آپ کے براؤزر میں کھل جائے گی۔
-
-لوکل سرور کے ذریعے (تجویز کردہ): اگر آپ کے پاس Python موجود ہے تو پراجیکٹ کے فولڈر میں جا کر ٹرمینل / کمانڈ پرامپٹ پر یہ کمانڈ چلائیں:
-
-Bash
-python -m http.server 8000
-پھر اپنے براؤزر میں http://localhost:8000 کھولیں۔
-
-🚀 گٹ ہب پیجز پر ہوسٹ کرنے کا طریقہ (How to Deploy to GitHub Pages)
-جب آپ اپنی ویب سائٹ کو گٹ ہب پر لائیو کرنا چاہیں، تو یہ چند آسان مراحل انجام دیں:
-
-۱. گٹ ریپازٹری بنائیں
-پراجیکٹ کے فولڈر میں کمانڈ پرامپٹ (CMD یا PowerShell) کھولیں اور یہ کمانڈز چلائیں:
-
-Bash
-# گٹ شروع کریں
-git init
-
-# تمام فائلز ایڈ کریں
-git add .
-
-# پہلا کمٹ کریں
-git commit -m "Initial commit - Jalees e Hikmat Complete Project"
-
-# برانچ کا نام main رکھیں
-git branch -M main
-۲. گٹ ہب پر نئی ریپازٹری بنائیں
-GitHub پر لاگ ان کریں۔
-
-New Repository پر کلک کریں۔
-
-ریپازٹری کا نام رکھیں: jalees-e-hikmat
-
-اسے Public رکھیں اور بغیر کسی README کے خالی ریپازٹری بنائیں۔
-
-۳. کوڈ پش (Push) کریں
-Bash
-# ریپازٹری کا لنک جوڑیں
-git remote add origin https://github.com/feelsoof123/jalees-e-hikmat.git
-
-# کوڈ گٹ ہب پر بھیجیں
-git push -u origin main
-۴. گٹ ہب پیجز کو آن کریں (Enable GitHub Pages)
-گٹ ہب پر اپنی ریپازٹری کے Settings ٹیب میں جائیں۔
-
-بائیں جانب مینو سے Pages پر کلک کریں۔
-
-Build and deployment کے نیچے Branch میں main منتخب کریں اور فولڈر میں / (root) منتخب کر کے Save پر کلک کریں۔
-
-۱ سے ۲ منٹ میں آپ کی ویب سائٹ اس ایڈریس پر لائیو ہو جائے گی:
-
-[https://feelsoof123.github.io/jalees-e-hikmat/](https://feelsoof123.github.io/jalees-e-hikmat/)
-
-📞 رابطہ برائے ملاقات و استخارہ (Contact & Consultation)
-کال: 0311-1855512
-
-واٹس ایپ: 0300-0210419
-
-ای میل: feelsoof123@gmail.com
-
-فیس بک: Sheikh Ansari
-
-پتہ: 100 کوارٹرز، عثمان ٹاؤن، نزد مسجدِ الٰہیہ، کورنگی نمبر 5، کراچی، پاکستان۔
-
-اوقاتِ ملاقات: صبح ۱۰ بجے تا شام ۴ بجے (اتوار اور جمعہ تعطیل)
-
-ضروری ہدایت: 📢 خواتین اپنے محرم کے ساتھ تشریف لائیں، اکیلے آنے پر ملاقات نہیں کی جائے گی۔
-
-📜 لائسنس و جملہ حقوق (Copyright & License)
-جملہ حقوق محفوظ ہیں۔ جلیسِ حکمت © شیخ فیلسوف انصاری۔
+================================================================================
+Jumla huqooq mehfooz hain. Jalees-e-Hikmat (c) Sheikh Feelsoof Ansari.
+================================================================================
